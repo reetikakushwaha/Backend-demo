@@ -46,7 +46,6 @@ const userShcema = new Schema({
     }
 }, {
     timestamps: true
-
 })
 
 userShcema.pre("save", async function (next) {
